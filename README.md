@@ -2,6 +2,10 @@
 
 A VitePress research hub for a future plain white T-shirt brand. Current phase: competitive discovery and information collection.
 
+**[Review the live research hub](https://shakti2008.github.io/white-tee-research/)**
+
+[GitHub repository](https://github.com/Shakti2008/white-tee-research)
+
 ## Run locally
 
 Requires Node.js 22 or newer and npm.
@@ -26,6 +30,6 @@ Add Markdown profiles, register their sources, and update the directory and side
 
 ## GitHub
 
-Suggested repository name: `white-tee-research`. Prefer a private repository while collecting business research. No remote has been created or configured yet.
+Public repository: [Shakti2008/white-tee-research](https://github.com/Shakti2008/white-tee-research).
 
-The included GitHub Actions workflow builds pull requests and pushes to `main`; it does not publish the research publicly. Hosting can be configured later. `DOCS_BASE` can set the base path when deploying under a subdirectory.
+GitHub Actions builds pull requests and deploys pushes to `main` to [GitHub Pages](https://shakti2008.github.io/white-tee-research/). The deployment workflow sets `DOCS_BASE` to `/white-tee-research/`.
